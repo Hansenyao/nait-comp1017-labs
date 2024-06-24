@@ -1,2 +1,1 @@
-# nait-web-design-labs
-All web design laborary projects at NAIT
+# This folder includes all loboratory projects in Web Design course at NAIT DMIT.

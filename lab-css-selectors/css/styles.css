@@ -1,0 +1,101 @@
+/* COMP1017 - Web Design Fundamentals   */
+/* (Lab 3) CSS Selectors                */
+/* Student Name: Youfang Yao            */
+/* Student ID: 200582794                */
+
+/* This selector is for checking only */
+body {
+    background-color: #111;
+}
+
+body, h1, h2, p {
+    /* m0px */
+    margin: 0px;
+    /* p0px */
+    padding: 0px;
+}
+
+body {
+    font-family: Georgia;
+    /* c#111111 */
+    color: #111111;
+    /* bgc#ffffff */
+    background-color: #ffffff;
+}
+
+header {
+    /* p24px */
+    padding: 24px;
+    /* c#444444 */
+    color: #444444;
+    /* bdb1-s-#009ead */
+    border-bottom: 1px solid #009ead;
+}
+
+h1 {
+    /* fsz48 */
+    font-size: 48px;
+    /* ttu */
+    text-transform: uppercase;
+    /* c#009ead */
+    color: #009ead;
+}
+
+h2 {
+    /* ttu */
+    text-transform: uppercase;
+    /* c#997e10 */
+    color: #997e10;
+}
+
+main p {
+    /* mb24 */
+    margin-bottom: 24px;
+}
+
+section {
+    /* ffa */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    /* w600 */
+    width: 600px;
+    /* m48 */
+    margin: 48px;
+}
+
+footer {
+    /* p24 */
+    padding: 24px;
+    /* bgc#f6f5ea */
+    background-color: #f6f5ea;
+}
+
+.book-items {
+    /* lstc */
+    list-style-type: circle;
+    /* w400 */
+    width: 400px;
+    /* p24 */
+    padding: 24px;
+    
+    box-shadow: 2px 2px #cccccc;
+    /* bgc#f6f5ea */
+    background-color: #f6f5ea;
+    /* ml24 */
+    margin-left: 24px;
+}
+
+.benefit {
+    /* pt8 */
+    padding-top: 8px;
+    /* pb8 */
+    padding-bottom: 8px;
+    /* fwb */
+    font-weight: bold;
+    /* fsi */
+    font-style: italic;
+}
+
+.featured {
+    /* c#009ead */
+    color: #009ead;
+}
