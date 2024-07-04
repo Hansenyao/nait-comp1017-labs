@@ -1,0 +1,27 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.flex-container>section {
+    border: 1px solid lightgray;
+    padding: 20px;
+    /* (960 - 2*21 - 6*1 - 6*20) / 3 = 264 */
+    width: 264px;
+}
+
+#columm-first {
+    /* (960 - 21 - 4*20 - 4*1) - 264 = 591 */
+    width: 591px;
+}
+
+#columm-last {
+    /* (960 - 2*20 - 2*1) = 938 */
+    width: 938px;
+}
