@@ -1,0 +1,62 @@
+body {
+    font-size: 100%;
+    font-family: 'Lora', sans-serif;
+}
+
+header p {
+    color: #ECE9E9;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: #92BEBF;
+    margin-bottom: 20px;
+}
+
+header div {
+    padding: 90px 51px 194px 50px;
+}
+
+h1, h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 45px;
+}
+
+h2 {
+    color: #10B3B8;
+    font-size: 36px;
+}
+
+p {
+    font-family: "Lora", serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.essence {
+    background-color: #FFFBEB;
+    padding: 60px 152px 60px 30px;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.boulder {
+    background-color: #F0FDFA;
+    padding: 60px 152px 60px 30px;
+    gap: 24px;
+    margin-bottom: 24px;
+}
